@@ -1,9 +1,13 @@
 
 import './App.css'
-
+import { Slider } from "./components/Slider";
+import {sliderimg} from "./data/data.json"
 function App() {
   return(
-  <h2>hello</h2>
+  <div className='App'>
+    <Slider data={sliderimg}/>
+  </div>
+
   )
 }
 
